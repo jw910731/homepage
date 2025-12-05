@@ -8,7 +8,7 @@
 
 <aside class="z-20 w-64 flex-shrink-0 overflow-y-auto bg-sky-900 md:block" class:hidden={!isOpen}>
 	<div class="py-4 text-white">
-		<a class="ml-6 text-lg font-bold text-white" href={resolve('/')}> My Portfolio </a>
+		<a class="ml-6 text-lg font-bold text-white" href={resolve('/')}> Jerry's Portfolio </a>
 		<ul class="mt-6">
 			<li class="relative px-6 py-3">
 				<a
