@@ -14,7 +14,7 @@
 </div>
 
 <div class="mb-8 flex">
-	<IconButton class="mx-2" icon="mdi:billboard" href="https://blog.jw910731.me" />
+	<IconButton class="mx-2 prose prose-invert" icon="mdi:billboard" href="https://blog.jw910731.me"> Blog </IconButton>
 	<IconButton class="mx-2" icon="ic:baseline-facebook" href="https://facebook.com/jw910731" />
 	<IconButton class="mx-2" icon="mdi:github" href="https://github.com/jw910731" />
 	<IconButton
@@ -23,6 +23,7 @@
 		href="https://stackoverflow.com/users/11264533/jw910731"
 	/>
 	<IconButton class="mx-2" icon="ic:baseline-email" href="mailto:jw910731@gmail.com" />
+    <IconButton class="mx-2 prose prose-invert" icon="mdi:biography" href="/resume.pdf">Resume</IconButton> 
 </div>
 
 <div class="mb-8 rounded-lg bg-sky-900 px-4 py-3 shadow-md">
@@ -48,7 +49,7 @@
             <p>Develop internal flash tools and </p>
         </CareerTimelineItem>
         <CareerTimelineItem date="2023/12 - 2025/05" title="Appier - Backend Software Engineer Intern">
-            <p>ptimize Trino database by using bit vectorize query. Saves 56% of CPU time, and 39% of wall time.</p>
+            <p>Optimize Trino database by using bit vectorize query. Saves 56% of CPU time, and 39% of wall time.</p>
         </CareerTimelineItem>
         <CareerTimelineItem date="2023/07 - 2023/11" title="Leju - Backend Software Engineer Intern">
             <p>Introduce Datadog as logging solution to replace MySQL based logging system. Significantly speed up bug fix workflow and improves development experience.</p>

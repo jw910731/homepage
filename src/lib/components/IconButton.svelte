@@ -6,4 +6,7 @@
 	export { clazz as class };
 </script>
 
-<a {href} class={clazz}><Icon {icon} class="h-8 w-8 text-slate-50" /></a>
+<a {href} class={clazz}>
+    <Icon {icon} class="h-8 w-8 text-slate-50" />
+    <slot/>
+</a>
