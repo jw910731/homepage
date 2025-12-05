@@ -28,20 +28,30 @@
 <div class="mb-8 rounded-lg bg-sky-900 px-4 py-3 shadow-md">
 	<h2 class="mb-2 text-lg font-semibold text-white">About Me</h2>
 	<p class="text-white">
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus,
-		magna ac interdum commodo, nulla risus scelerisque quam, sed mollis risus nisi eget augue.
-		Pellentesque et enim vel justo commodo bibendum.
+		I am an enthusiast of problem solving. Always seeks for best solution of problems encountered in life, work, or researches in spare time. Good at using debug tools and working with large codebase with mixture of several frameworks or tools to solve difficult problem.
 	</p>
 </div>
 
 <div class="mb-8 rounded-lg bg-sky-900 px-4 py-3 shadow-md">
 	<h2 class="mb-4 text-lg font-semibold text-white">Career</h2>
 	<CareerTimeline>
-		<CareerTimelineItem date="1970/01 - 2038/03" title="Placeholder">
-			<div slot="icon">
-				<Icon icon="mdi:rocket" class="h-4 w-4 text-white" />
-			</div>
-			<p>Lorem ipsum</p>
-		</CareerTimelineItem>
+        <CareerTimelineItem date="2025/08 - Present" title="Graid Tech - Software Engineer (Product Interface)">
+            <ul class="list-disc ml-5">
+                <li>Developing and debugging linux kernel driver related to GPU driven RAID device</li>
+                <li>Improving clangd setup to </li>
+            </ul>
+        </CareerTimelineItem>
+        <CareerTimelineItem date="2025/05 - 2025/07" title="Apple - Embedded Software Engineering Intern">
+            <div slot="icon">
+                <Icon icon="ic:baseline-apple" class="h-4 w-4 text-white" />
+            </div>
+            <p>Develop internal flash tools and </p>
+        </CareerTimelineItem>
+        <CareerTimelineItem date="2023/12 - 2025/05" title="Appier - Backend Software Engineer Intern">
+            <p>ptimize Trino database by using bit vectorize query. Saves 56% of CPU time, and 39% of wall time.</p>
+        </CareerTimelineItem>
+        <CareerTimelineItem date="2023/07 - 2023/11" title="Leju - Backend Software Engineer Intern">
+            <p>Introduce Datadog as logging solution to replace MySQL based logging system. Significantly speed up bug fix workflow and improves development experience.</p>
+        </CareerTimelineItem>
 	</CareerTimeline>
 </div>
